@@ -8,7 +8,11 @@ Load image when it is visible in the viewport
   <script src="lazyload.js" />
 </head>
 ```
-- step 2: in your image tag, src will contain the placeholder image, while data-src will contain the actual image  
+- step 2: in your image tag, src should contain the placeholder image, while data-src should contain the actual image  
 ```
 <img src="link-to-placeholder-image" data-src="link-to-actual-image" />
 ```
+
+---
+
+this is the only step needed for the lazyloading to work. the script will handle the rest
