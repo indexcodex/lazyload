@@ -15,4 +15,4 @@ Load image when it is visible in the viewport
 
 ---
 
-this is the only step needed for the lazyloading to work. the script will handle the rest
+this is the only step needed for lazyloading to work. the script will handle the rest
